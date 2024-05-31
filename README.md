@@ -7,7 +7,7 @@ For NewGraduateTraining - Explanation of how to manage source code using Git and
 
 <details>
 
-#### <summary>よく使用するGitコマンド一覧(研修用)</summary>
+<summary>よく使用するGitコマンド一覧(研修用)</summary>
 
 ``` 
 git help
