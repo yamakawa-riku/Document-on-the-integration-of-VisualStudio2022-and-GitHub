@@ -5,8 +5,9 @@ For NewGraduateTraining - Explanation of how to manage source code using Git and
 > 設定->時刻と言語->言語と地域->管理用の言語設定->システムロケールの変更->ベータ: ワールドワイド言語サポートで Unicode UTF-8を使用にチェック。  
 > PCの再起動
 
+<details>
 
-よく使用するGitコマンド一覧(研修用)
+<summary>よく使用するGitコマンド一覧(研修用)</summary>
 
 ``` 
 git help
@@ -52,5 +53,7 @@ git log
 git push origin
 ``` 
 　リモートリポジトリにプッシュ 
+
+ </details>
 
 ### GitHubにリポジトリが生成できたことを確認できた人はTeamsの個人チャットで報告してくれると嬉しいな。
