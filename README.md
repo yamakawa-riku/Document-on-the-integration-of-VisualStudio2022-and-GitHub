@@ -6,8 +6,7 @@ For NewGraduateTraining - Explanation of how to manage source code using Git and
 > 設定->時刻と言語->言語と地域->管理用の言語設定->システムロケールの変更->ベータ: ワールドワイド言語サポートで Unicode UTF-8を使用にチェック。  
 > PCの再起動
 
-
-↓のコマンドはMonorepo/単一レポジトリ想定　　
+↓のコマンドはMonorepo/単一レポジトリ想定
 
 <details>
 
