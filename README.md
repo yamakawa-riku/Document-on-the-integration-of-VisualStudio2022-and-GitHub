@@ -96,9 +96,9 @@ git push origin
 　　
 
 ```
-git branch -r
-``` 
-　リモート追跡ブランチを表示　　
+git branch
+```
+　ブランチの一覧表示(ブランチ名の前に＊が付いているものが現在いるブランチ)　　
 　　
 
 ```
@@ -108,9 +108,15 @@ git branch -a
 　　
 
 ```
-git branch -l
+git branch -r
+``` 
+　リモート追跡ブランチを表示　　
+　　
+
 ```
-　ブランチの一覧表示　　
+git branch ブランチ名
+```
+　新しいブランチの作成　　
 　　
 
  </details>
