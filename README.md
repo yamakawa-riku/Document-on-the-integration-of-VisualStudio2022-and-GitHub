@@ -1,9 +1,11 @@
 # Document-on-the-integration-of-VisualStudio2022-and-GitHub
-For NewGraduateTraining - Explanation of how to manage source code using Git and GitHub in VisualStudio 2022
+For NewGraduateTraining - Explanation of how to manage source code using Git and GitHub in VisualStudio 2022  
+
 > [!TIP]
 > 今後コンソールでlog等を確認する際に日本語が文字化けして何が何だか分からなくならないようにメモ  
 > 設定->時刻と言語->言語と地域->管理用の言語設定->システムロケールの変更->ベータ: ワールドワイド言語サポートで Unicode UTF-8を使用にチェック。  
 > PCの再起動
+
 
 ↓のコマンドはMonorepo/単一レポジトリ想定　　
 
@@ -118,6 +120,22 @@ git branch ブランチ名
 ```
 　新しいブランチの作成　　
 　　
+
+```
+git switch ブランチ名
+```
+　ブランチの切り替え　　
+
+> [!WARNING]
+> ※ブランチの切り替えを行う前にキチンとコミットしましょう。
+　　
+
+```
+git switch -c ブランチ名
+```
+　ブランチを作成して作業ブランチを切り替え　
+> [!WARNING]
+> ※「-c」を大文字のCつまり「-C」に変えてしまうと同名のブランチが存在した場合でも強制的に作成されるため注意してください。
 
  </details>
 
