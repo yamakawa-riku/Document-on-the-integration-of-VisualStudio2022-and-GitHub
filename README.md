@@ -5,8 +5,6 @@ For NewGraduateTraining - Explanation of how to manage source code using Git and
 > 設定->時刻と言語->言語と地域->管理用の言語設定->システムロケールの変更->ベータ: ワールドワイド言語サポートで Unicode UTF-8を使用にチェック。  
 > PCの再起動
 
-git fetch --allの挙動確認テスト
-
 <details>
 
 <summary>よく使用するGitコマンド一覧(研修用)</summary>
@@ -50,6 +48,11 @@ git commit -m "コミットメッセージ入力"
 git log
 ``` 
 　commit履歴の表示(履歴を見終わったらqで戻れる。
+
+```
+git fetch --all
+``` 
+　全てのリモートレポジトリの全てのブランチの最新のコミット履歴を取得
 
 ```
 git push origin
