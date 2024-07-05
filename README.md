@@ -120,6 +120,8 @@ git branch ブランチ名
 ```
 　新しいブランチの作成　　
 　　
+> [!WARNING]
+> switchコマンドは実験的なもので、Versionによって動作が変わる可能性があります。
 
 ```
 git switch ブランチ名
